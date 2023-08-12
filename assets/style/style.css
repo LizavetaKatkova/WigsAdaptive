@@ -477,7 +477,7 @@ h1 {
     width: 26px;
     height: 26px;
     cursor: pointer;
-    z-index: 1;
+    z-index: 100;
   }
 
   .menu-btn > span,
@@ -513,6 +513,7 @@ h1 {
     background-color: #eceff1cc;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
     transition-duration: 0.25s;
+    z-index: 1;
   }
 
   .menu-item {
